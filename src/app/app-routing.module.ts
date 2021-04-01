@@ -51,6 +51,10 @@ const routes: Routes = [
     loadChildren: () => import('./modulos/dashboard/dashboard.module').then(m => m.DashboardModule),
     canActivate: [AuthGuard]
   },
+  {
+    path: 'landing',
+    loadChildren: () => import('./modulos/landing/landing.module').then(m => m.LandingModule) 
+  },
   { path: '500', component: Err500Component },
   { path: '', redirectTo: '/estudiantes/home', pathMatch: 'full' },
   { path: '**', component: Err404Component }

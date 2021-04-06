@@ -1,12 +1,14 @@
 export interface ISegCatUsuario {
     activo: boolean;
     correo: string;
-    cvePersonaId: number;
+    // cvePersonaId: number;
     cveUsuario: number;
     fechaRegistro: string;
     registroCompleto: boolean;
+    confirmarCorreo: boolean;
     usuario: string;
     persona: IMaPersona;
+    maPersona: IMaPersona;
     roles: IRolesUsuario[];
     modulos: IModulosUsuario[];
 }
@@ -15,6 +17,8 @@ export interface IMaPersona {
     apellidoMaterno: string;
     apellidoPaterno: string;
     cvePersona: number;
+    fechaNacimiento: string;
+    genero: boolean|null;
     cvePersonaReg: number;
     imagen: string;
     nombre: string;
@@ -30,8 +34,7 @@ export interface ILocalStorageSegCatUsuario {
 
 export interface IRolesUsuario {
     activo: boolean;
-    cveRol: number;
-    nombre: string;
+    id: number;
     rol: ISegCatRol;
 }
 

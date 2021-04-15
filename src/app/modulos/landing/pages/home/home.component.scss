@@ -1,18 +1,88 @@
-.header .navbar {
-    background-color: transparent !important;
-  }
+#dritdi-logo {
+    margin-right: 65%;
+    text-align: left;
+    width: 150px;
+    height: 150px;;
+}
 
-#bg{
+#navb {
+    text-align: right;
+}
+
+.navbar {
+    background-color: transparent !important;
+    box-shadow: none;
+}
+
+.navbar-item {
+    text-align: center;
+}
+
+li {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: inline;
+    background-color: transparent !important;
+    border: 0;
+    border-radius: 0;
+    margin-right: 10px;
+}
+
+#bg {
     background-image: url("../../../../../assets/img/adnwallpaper.jpg");
 }
 
-#iconosRedesSociales{
+@font-face {
+    font-family: 'MADE Evolve Sans Bold EVO';
+    src: url('../../../../../assets/font/MADE\ Evolve\ Sans\ Bold\ EVO.otf');
+}
+
+#title1 {
+    font-family: 'MADE Evolve Sans Bold EVO';
+    font-size: 5rem;
+    margin-top: 0%;
+    color: #F0F0F0;  
+}
+
+#title2 {
+    font-family: 'MADE Evolve Sans Bold EVO';
+    font-size: 5rem;
+    margin-top: 0%;
+    color: #F0F0F0;
+    padding-top: 0%;    
+}
+
+#title3 {
+    font-family: 'MADE Evolve Sans Bold EVO';
+    font-size: 5rem;
+    margin-top: 0%;
+    color: #F0F0F0;
+    padding-top: 0%;     
+}
+
+#title4 {
+    font-family: 'MADE Evolve Sans Bold EVO';
+    font-size: 5rem;
+    margin-top: 0%;
+    padding-top: 0%;   
+}
+
+#title6 {
+    font-family: 'MADE Evolve Sans Bold EVO';
+    font-size: 5rem;  
+}
+
+#title7 {
+    font-family: 'MADE Evolve Sans Bold EVO';
+    font-size: 5rem; 
+}
+
+#iconosRedesSociales {
     margin-left: 35px;
     width: 20px;
     height: 20px;
 }
 
-#botonComenzar{
+#botonComenzar {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
     text-align: center;
@@ -24,7 +94,7 @@
     margin-left: 35px;
 }
 
-#botonCreditos{
+#botonCreditos {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     background-color: #105291;
@@ -35,8 +105,15 @@
     margin-left: 35px;
 }
 
-#logo-dritdi{
+#logo-dritdi {
     width: 25%;
     height: 25%;
     margin-left: 35px;
+}
+
+#bg {
+    background-image: url('../../../../../assets/img/adnwallpaper.jpg');
+    background-repeat: no-repeat;
+    // width: 20px;
+    // height: 20px;
 }
